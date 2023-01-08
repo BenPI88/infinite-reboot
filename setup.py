@@ -16,8 +16,7 @@ if option == 1:
 if option == 2:
     print("Installing...")
     os.system("cp .autoshutdown.desktop /etc/xdg/autostart/autoshutdown.desktop")
-if option == 1 or option == 2:
-    print("Installed. Would You Like To Reboot? (y/n)")
-    reboot = input("")
-    if reboot == "y":
-        os.system("shutdown -r -t 0")
+print("Installed. Would You Like To Reboot? (y/n)")
+reboot = input("")
+if reboot == "y":
+    os.system("shutdown -r -t 0")
