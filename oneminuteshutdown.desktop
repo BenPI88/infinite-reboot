@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=notify-send "You Have 1 Minute" && shutdown -r -t 60
+Name=Reboot
+Comment=Loader for benpi88/infinite-reboot
