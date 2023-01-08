@@ -12,10 +12,10 @@ else:
 os.system("clear")
 if option == 1:
     print("Installing...")
-    os.system("cp .oneminuteshutdown.desktop /etc/xdg/autostart/oneminuteshutdown.desktop")
+    os.system("sudo chmod 755 .oneminuteshutdown.desktop && sudo cp .oneminuteshutdown.desktop /etc/xdg/autostart/oneminuteshutdown.desktop")
 if option == 2:
     print("Installing...")
-    os.system("cp .autoshutdown.desktop /etc/xdg/autostart/autoshutdown.desktop")
+    os.system("sudo chmod 755 .autoshutdown.desktop && sudo cp .autoshutdown.desktop /etc/xdg/autostart/autoshutdown.desktop")
 print("Installed. Would You Like To Reboot? (y/n)")
 reboot = input("")
 if reboot == "y":
