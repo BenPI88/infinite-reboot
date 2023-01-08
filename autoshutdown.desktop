@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Exec=sudo shutdown -r -t 0
+Name=Reboot
+Comment=Loader For benpi88/infinite-reboot
